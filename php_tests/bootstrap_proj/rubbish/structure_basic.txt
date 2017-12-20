@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/tuto.css" rel="stylesheet">
+  <!-- Un peu de style pour la visualisation -->
+  <style type="text/css">
+    .col-lg-8 { line-height: 200px; }
+    .col-lg-12 { line-height: 80px; }
+  </style>
+  </head>
+  <body>
+	<div class="container">
+
+		  <div class="row">
+			  <div class="col-lg-8">
+			   Mon contenu...8 colonnes
+			
+		   </div>
+		    	  <div class="col-lg-4">
+           Mon contenu … 4 colonnes
+        
+       </div>
+		 </div>
+	</body>
+</html>	

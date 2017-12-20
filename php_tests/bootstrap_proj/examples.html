@@ -1,0 +1,465 @@
+<html>
+    <head>
+        <title>Demo Bootstrap SDI 2017/2018</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+		
+    <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  .breadcrumb > li + li:before {
+   color: #CCCCCC;
+   content: "/ ";
+   padding: 0 5px;
+}
+  </style>
+<script>
+/*$(document).ready(function() {
+    $(function () {
+    $("#nav_page_a").on("click", function () {
+        $("#main_content").load("simple_structure.html");
+    });
+    $("#nav_page_b").on("click", function () {
+        $("#main_content").load("simple_structure.html");
+    });
+});
+});*/
+
+</script>  
+
+    </head>
+    <body>
+			<div class = "page-header" style="background-color: #0275d8; margin-top:15px">
+			   <div id="ico" class="text-center">
+				   <img src="images\fb-f-logo_white_50.png" alt="cpam">
+				   <img src="images\youtube_icon.png" alt="cpam">
+				   <img src="images\twitter_logo_white.png" alt="cpam">
+			   </div> <!-- end div ico -->
+		   <div class = "container well" style="background-color: #7fd531; color: white ; margin-top:15px ; margin-bottom : 15px" >
+		   <div class="text-center" >
+			<img src="images\footer_logo_ss.png" alt="cpam">
+			<img src="images\footer_logo_ameli.png" alt="cpam">
+		   </div >
+			  <h1>Welcome!</h1>
+			  <h2>Présentation de bootstrap CPAM 44</h2>
+			 </div> 
+		   </div>
+		</div>
+		<div class="row" >
+			<div class="col-lg-12">
+			<!---   NAVIAGATION BAR -->
+				<nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color:#7fd531">
+				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <a class="navbar-brand" href="#"></a>
+				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+					  <li class="nav-item active">
+						<a class="nav-link" href="#" id="nav_page_a">Structure <span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Menu
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Une autre action</a>
+						  <a class="dropdown-item" href="#">Encore un autre lien</a>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				</nav>
+				<nav class="navbar navbar-light bg-faded">
+				  <form class="form-inline">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				 </form>
+
+				</nav>
+			</div>  
+			<div class="row" id="main_content">
+			
+			</div>
+				 <!--------------   MODAL  ----------->
+		<!-- Button HTML (to Trigger Modal) -->
+		
+ 		<!-- Modal HTML -->
+			<div id="myModal" class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Confirmation</h4>
+						</div>
+						<div class="modal-body" style="background-color: green; color:white" >
+						<img src="images\footer_logo_ss.png" alt="cpam">
+							<p>Êtes vous certain de vouloir fermer cette fenêtre ?</p>
+							<p class="text-warning"><small>Sans sauver vos modifications seront perdues</small></p>
+							
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+							<button type="button" class="btn btn-primary">Sauver</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+		<!---------end  Modal ---------------->
+		
+		</div>	
+		<!--   onglets ----------------------------------------->
+	<div class="row">
+			<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+		  <li class="nav-item">
+			<a class="nav-link active" data-toggle="tab" href="#home" role="tab">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#carousel" role="tab">Carousel</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#form" role="tab">Forms</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#tableaux" role="tab">Tableaux</a>
+		  </li>
+		   <li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#recrutement" role="tab">Recrutement</a>
+		  </li>
+		   </li>
+		   <li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#modal" role="tab">Modal</a>
+		  </li>
+		</ul>
+</div> <!-- div row -->
+	
+<!-- Tab panes -->
+  <div class="row">
+   <div class="col-lg-8">
+	<div class="tab-content">
+	  <div class="tab-pane active" id="home" role="tabpanel"> 
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Accordeon #1
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-block">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordeon #2
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="card-block">
+        <img src="images/photo-tigre.jpg" alt="image tigre">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Accordeon #3
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="card-block">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+	  </div><!-- end DIV home pane -->
+	  <div class="tab-pane" id="carousel" role="tabpanel">
+		<!-- mmmmmmmmmmmmmmmmmmmmm CAROUSEL mmmmmmmmmmmmmmmmm -->
+	<div class="row" style="margin-top: 20px">
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			  </ul>
+
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="images/la.jpg" alt="Los Angeles">
+				</div>
+				<div class="carousel-item">
+				  <img src="images/chicago.jpg" alt="Chicago">
+				</div>
+				<div class="carousel-item">
+				  <img src="images/ny.jpg" alt="New York">
+				</div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			  </a>
+
+			</div>
+		</div>	
+	  
+	  </div> <!-- end tab carousel-->
+	  <div class="tab-pane" id="form" role="tabpanel">
+	  <!--    FORM   ----------------->
+		<div class="row" >
+		<div class="col-lg-8 " style="margin-left:15px bottom-margin:15px">
+			<form role = "form" class = "form">
+
+			   <div class = "form-group">
+				  <label for = "name">Nom</label>
+				  <input type = "text" class = "form-control " id = "name" placeholder = "Enter Name">
+			   </div>
+   
+			   <div class = "form-group">
+				  <label for = "inputfile">Fichier....</label>
+				  <input type = "file" class="btn btn-success" id = "inputfile">
+				  <p class = "help-block">Example block-level help text here.</p>
+			   </div>
+			   <div>
+				<label class="btn btn-primary active">
+					<input type="checkbox" checked autocomplete="off"> Checkbox 1 (pre-checked)
+				</label>
+				<label class="btn btn-primary">
+					<input type="checkbox" autocomplete="off"> Checkbox 2
+				</label>
+				</div>
+			   <div class = "checkbox">
+				  <label ><input type = "checkbox"> Check me out</label>
+			   </div>
+			   <div class = "radio">
+			   <label>
+				  <input type = "radio" name = "optionsRadios" id = "optionsRadios1" value = "option1" checked> Option 1
+			   </label>
+				</div>
+
+				<div class = "radio">
+				   <label>
+					  <input type = "radio" name = "optionsRadios" id = "optionsRadios2" value = "option2">
+					  Option 2 
+				   </label>
+				</div>
+				 <div class = "form-group col-sm-6 bg-success text-white">
+					<label for = "name">Text Area</label>
+					<textarea class = "form-control" rows = "3"></textarea>
+				</div>
+				
+				<div class = "form-group col-sm-6 bg-danger text-white">
+				  <label for = "name">Select list</label>
+				  
+				  <select class = "form-control ">
+					 <option>A</option>
+					 <option>B</option>
+					 <option>C</option>
+					 <option>D</option>
+					 <option>E</option>
+				  </select>
+
+				  <label for = "name">Mutiple Select list</label>
+				  
+				  <select multiple class = "form-control " >
+					 <option>1</option>
+					 <option>2</option>
+					 <option>3</option>
+					 <option>4</option>
+					 <option>5</option>
+				  </select>
+				  
+			   </div>
+			
+			<button type = "submit" class = "btn btn-warning">Submit</button>
+			<button type = "submit Encore" class = "btn btn-success">Submit</button>
+			
+			</form>
+		</div><!-- end col -->
+	</div><!-- end row -->
+	
+		</div><!-- end tab pane form -->
+	  <div class="tab-pane " id="tableaux" role="tabpanel">
+		
+			<!--      TABLEAUX   --->
+			<div class="row">
+				<div class="col-lg-6" style="margin-left: 15px">
+					<table class="table  table-bordered table-striped">
+					   <caption><em> class de la table : table table-bordered table-striped table-hover table-condensed</em></caption>
+					   <thead>
+						  <tr>
+							 <th>Nom</th>
+							 <th>Ville</th>
+							 <th>code</th>
+							 <th> GPS coordinates </th>
+						  </tr>
+					   </thead>
+					   
+					   <tbody>
+						  <tr class="danger">
+							 <td>Tanmay</td>
+							 <td>Bangalore</td>
+							 <td>560001</td>
+							 <td> 48.85661400000001 2.3522219000000177</td>
+						  </tr>
+						  
+						  <tr class = "warning">
+							 <td>Sachin</td>
+							 <td>Mumbai</td>
+							 <td>400003</td>
+							 <td> 48.862725 2.287592000000018</td>
+						  </tr>
+						  
+						  <tr>
+						  
+							 <td>Uma</td>
+							 <td>Pune</td>
+							 <td>411027</td>
+							 <td> 43.604652 1.4442090000000007</td>
+						  </tr>
+						  <tr>
+						  
+							 <td>Uma</td>
+							 <td>Pune</td>
+							 <td>411027</td>
+							 <td> 43.604652 1.4442090000000007</td>
+						  </tr>
+						  <tr>
+						  
+							 <td>Uma</td>
+							 <td>Pune</td>
+							 <td>411027</td>
+							 <td> 43.604652 1.4442090000000007</td>
+						  </tr>
+					   </tbody>
+					   
+					</table>
+				</div>
+				<div class="col-lg-4">
+					<table class="table table-sm ">
+					   <caption><em> class de la table : table table-sm 
+						table row class table table-danger" 
+						</em></caption>
+					   
+					   <thead>
+						  <tr class="table table-info">
+							 <th>Nom</th>
+							 <th>Ville</th>
+							 <th>code</th>
+							 <th> GPS coordinates </th>
+						  </tr>
+					   </thead>
+					   
+					   <tbody>
+						  <tr class = "table table-danger" >
+							 <td>Tanmay</td>
+							 <td>Bangalore</td>
+							 <td>560001</td>
+							 <td> 48.85661400000001 2.3522219000000177</td>
+						  </tr>
+						  
+						  <tr class = "table table-warning">
+							 <td>Sachin</td>
+							 <td>Mumbai</td>
+							 <td>400003</td>
+							 <td> 48.862725 2.287592000000018</td>
+						  </tr>
+						  
+						  <tr class="table table-info">
+						  
+							 <td>Uma</td>
+							 <td>Pune</td>
+							 <td>411027</td>
+							 <td> 43.604652 1.4442090000000007</td>
+						  </tr>
+						  <tr class="table table-info">
+						  
+							 <td>Uma</td>
+							 <td>Pune</td>
+							 <td>411027</td>
+							 <td> 43.604652 1.4442090000000007</td>
+						  </tr>
+						  <tr class="table table-info">
+						  
+							 <td>Uma</td>
+							 <td>Pune</td>
+							 <td>411027</td>
+							 <td> 43.604652 1.4442090000000007</td>
+						  </tr>
+					   </tbody>
+					</table>
+				</div>
+				</div>	<!--  end Tableaux --->
+		  </div>  <!-- End div tab tableaux -->
+	  <div class="tab-pane" id="recrutement" role="tabpanel">
+		<div class="row">
+		<div  class="col-xs-4" style="padding-left: 0px;  padding-right: 0px;">
+			<img src="images\recrutement.jpg" alt="..."  class="img-fluid"  style="padding-top: 5px"> 
+			</div>
+			</div>
+	  <div><!-- end div recrutement -->
+	  </div><!-- end div tab content-->
+	  
+	</div>
+	  <div class="tab-pane" id="modal" role="tabpanel">
+	  
+		<div class="row">
+			<div class="col-lg-6" style="margin-top: 15px; margin-left:15px">
+			<a href="#myModal" role="button" class="btn btn-large btn-primary " data-toggle="modal">Fenêtre Modale exemple</a>
+			
+			<div> <!-- end div col -->
+		</div> <!-- end div row -->
+	  </div><!-- end modal button tab -->	  
+   
+  
+  </div> <!-- div row-->
+</div>  
+  <div class="container" style="margin-top: 15px">
+  <div class="row">
+	<div class="col-lg-4">
+		<ol class = "breadcrumb">
+		   <li><a href = "#">Home</a></li>
+		   <li><a href = "#">2017</a></li>
+		   <li class = "active">Decembre</li>
+		</ol>
+		</div><!-- col -->
+	  </div> <!-- row -->
+  </div> <!-- end container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+   </body>
+</html>
