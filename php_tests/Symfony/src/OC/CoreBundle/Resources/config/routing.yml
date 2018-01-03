@@ -1,0 +1,6 @@
+oc_core_homepage:
+    path:     /
+    defaults: { _controller: OCCoreBundle:Default:index }
+oc_core_about:
+    path: /about
+    defaults: { _controller: OCCoreBundle:Default:about}
