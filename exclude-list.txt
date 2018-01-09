@@ -1,0 +1,6 @@
+.git/
+/log*/
+var/cache/
+php_tests/Symfony/var/cache
+php_tests/Symfony/var/logs
+php_tests/Symfony/vendor
