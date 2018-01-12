@@ -4,14 +4,14 @@
   margin-left: 250px;
   margin-top:20px;
   margin-bottom: 20px;
-  padding-top:20px;
-  width:450px;
+  padding-top:20px
+  width:9000px;
   height:50px;
-  background-color: #7ac959;
-  border-radius: 25px;
+  /*background-color: #7ac959;
+  border-radius: 25px;*/
 }
 .container input {
-  background-color: #7ac959;
+  background-color: #edf2ea;
   font-weight: bold;
 
 }
@@ -19,5 +19,9 @@
   border:1px;
 }
 .container label {
+  font-weight: bold;
+}
+.container .required {
+  color:red;
   font-weight: bold;
 }
