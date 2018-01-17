@@ -1,0 +1,6 @@
+{
+    "require": {
+        "thybag/php-sharepoint-lists-api": "dev-master",
+        "fergusean/nusoap": "^0.9.5"
+    }
+}
