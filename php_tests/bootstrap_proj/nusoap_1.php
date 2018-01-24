@@ -4,8 +4,8 @@
 require __DIR__ . '/vendor/autoload.php';
 //require_once('lib/nusoap.php');
 
-$username = 'VALLET-03846';
-$password = 'BepiColombo';
+$username = 'VALLET-03846@cnamts.fr';
+$password = '';
 $rowLimit = '150';
 
 /* A string that contains either the display name or the GUID for the list.

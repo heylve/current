@@ -1,6 +1,6 @@
 <?php
 
-$username = 'LUC.VALLET@cpam-loireatlantique.cnamts.fr';
+$username = 'VALLET-03846@cnamts.fr';
 $password = '';
 $url = "http://w11440101shp/sites/Projets-SDMA/Gestion_Visiteurs/_layouts/15/start.aspx#/";
 try {
