@@ -11,8 +11,8 @@
 </head>
 <body>
 
-<div class="container">
-      <h1 >Création dossier pour pièces justificatives</h1>
+<div class="container smart-green" id="etape1">
+      <h1 >01 Pièces justificatives</h1>
   <div class="row">
     <div class='col-sm-12'>
       <form class="form-horizontal">
@@ -22,83 +22,85 @@
   <legend>Information voyage</legend>
 
   <!-- Text input-->
-  <div class="form-group">
+
     <label class="col-md-4 control-label" for="id">Date de réservation<span class="required">*</span></label>
 
     <div class="col-md-5">
 
-      <input id="id" name="id" type="date" placeholder="identifiant" class="form-control input-md" required=required/>
+      <input id="id" name="id" type="date" placeholder="identifiant" class="" required=required/>
 
-    </div>
+
   </div>
   <!-- Text input-->
-  <div class="form-group">
+
     <label class="col-md-8 control-label" for="id">N identifiant du voyageur<span class="required">*</span></label>
     <div class="col-md-2">
-      <input id="id" name="id" type="text" placeholder="identifiant" class="form-control input-md" required="true">
+      <input id="id" name="id" type="text" placeholder="" class="smart-green form-control input-md" required="true">
 
-    </div>
+
   </div>
 
   <!-- Text input-->
-  <div class="form-group">
+
     <label class="col-md-8 control-label" for="prenom">prenom<span class="required">*</span></label>
     <div class="col-md-5">
-    <input id="prenom" name="prenom" type="text" placeholder="prenom" class="form-control input-md">
+    <input id="prenom" name="prenom" type="text" placeholder="" class="smart-green form-control input-md">
 
-    </div>
+
   </div>
 
   <!-- Text input-->
-  <div class="form-group">
+
     <label class="col-md-8 control-label" for="Nom">Nom<span class="required">*</span></label>
     <div class="col-md-5">
-    <input id="Nom" name="Nom" type="text" placeholder="nom" class="form-control input-md">
+    <input id="Nom" name="Nom" type="text" placeholder="" class=" smart-green form-control input-md">
 
-    </div>
+
   </div>
 
   <!-- Text input-->
-  <div class="form-group">
-    <h3> Pièces justificatives </h3>
+
+
     <label class="col-md-8 control-label" for="textinput">Ordre de mission<span class="required">*</span> </label>
 
-    <div class="col-md-5">
-    <input id="textinput" name="textinput" type="file" placeholder="placeholder" class="form-control input-md" required="">
 
-    </div>
-  </div>
-  <div class="form-group">
+    <input id="textinput" name="textinput" type="file" placeholder="placeholder" class="smart-green  " required="">
+
+
+
+
     <label class="col-md-8 control-label" for="textinput">Convocation </label>
 
     <div class="col-md-5">
-    <input id="textinput" name="textinput" type="file" placeholder="placeholder" class="form-control input-md" required="">
+    <input id="textinput" name="textinput" type="file" placeholder="" class="smart-green " required="">
 
-    </div>
+
   </div>
   <!-- Button (Double) -->
-  <div class="form-group">
 
     <div class="col-md-8">
-      <button id="button1id" name="button1id" class="btn btn-success">Envoyer</button>
-      <button id="button2id" name="button2id" class="btn btn-danger">Annuler</button>
+      <button id="button1id" name="button1id" class="smart-green button">Envoyer</button>
+      <button id="button2id" name="button2id" class="smart-green button">Annuler</button>
     </div>
-  </div>
 
   </fieldset>
   </form>
 
-
-
-
-
-
-
-
-
     </div><!-- col -->
 </div><!-- row -->
 </div> <!-- container -->
+<div class="container smart-green" >
+  <div class="row  ">
+    <div class='col-sm-12 '>
+  <h1>02 Connexion au site</h1>
+    <b> Connectez-vous sur le site</b><a href="https://www.ailleursbusiness.com"> Ailleurs Business</a>
+    <p>Accès client - Traveldoo</p>
+    <p>Member Id = votre adresse mail professionnelle</p>
+    <span><b>[il devra être modifié dès la première connexion, rubrique Mon profil]</span>
+    </div><!-- row -->
+  </div> <!-- col -->
+</div>
+
 <!--   js ---->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script>
