@@ -2,8 +2,12 @@
     "require": {
         "thybag/php-sharepoint-lists-api": "dev-master",
         "fergusean/nusoap": "^0.9.5"
+    },
+
+
+
+    "require-dev": {
+        "whatthejeff/nyancat-phpunit-resultprinter": "^2.0"
     }
-
 }
-
 

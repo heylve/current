@@ -6,12 +6,40 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit540b1da400e6b7f8a5aa0254d5ab5b86
 {
+    public static $prefixLengthsPsr4 = array (
+        'N' => 
+        array (
+            'NyanCat\\' => 8,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'NyanCat\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/whatthejeff/nyancat-phpunit-resultprinter/src/NyanCat',
+        ),
+    );
+
     public static $prefixesPsr0 = array (
         'T' => 
         array (
             'Thybag' => 
             array (
                 0 => __DIR__ . '/..' . '/thybag/php-sharepoint-lists-api/src',
+            ),
+        ),
+        'N' => 
+        array (
+            'NyanCat' => 
+            array (
+                0 => __DIR__ . '/..' . '/whatthejeff/nyancat-scoreboard/src',
+            ),
+        ),
+        'F' => 
+        array (
+            'Fab' => 
+            array (
+                0 => __DIR__ . '/..' . '/whatthejeff/fab/src',
             ),
         ),
     );
@@ -42,6 +70,8 @@ class ComposerStaticInit540b1da400e6b7f8a5aa0254d5ab5b86
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit540b1da400e6b7f8a5aa0254d5ab5b86::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit540b1da400e6b7f8a5aa0254d5ab5b86::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit540b1da400e6b7f8a5aa0254d5ab5b86::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit540b1da400e6b7f8a5aa0254d5ab5b86::$classMap;
 

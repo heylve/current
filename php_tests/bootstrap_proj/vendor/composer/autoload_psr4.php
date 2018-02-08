@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'NyanCat\\' => array($vendorDir . '/whatthejeff/nyancat-phpunit-resultprinter/src/NyanCat'),
 );

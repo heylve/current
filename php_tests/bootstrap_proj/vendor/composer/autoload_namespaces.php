@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Thybag' => array($vendorDir . '/thybag/php-sharepoint-lists-api/src'),
+    'NyanCat' => array($vendorDir . '/whatthejeff/nyancat-scoreboard/src'),
+    'Fab' => array($vendorDir . '/whatthejeff/fab/src'),
 );
