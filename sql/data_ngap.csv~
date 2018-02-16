@@ -1,0 +1,17 @@
+Code; Libellé court ;ngap_cat
+G; Consultation de médecine générale ;ngap
+GS; Consultation de spécialiste en médecine générale ;ngap
+VG; Visite à domicile par le médecin généraliste ;ngap
+VGS; visite à domicile par le médecin spécialiste qualifié en médecine générale ;ngap
+VL; Visite longue du patient atteint de maladie neurodégénérative ;ngap
+C 2,5; Entretien prénatal précoce du 1e trimestre ;ngap
+COE; Consultation obligatoire de l'enfant ;ngap
+CCP; Première consultation de contraception ;ngap
+CSO; Consultation pour les enfants en risque avéré d'obésité ;ngap
+K9; Nettoyage ou pansement d'une brulure < à 10 cm2 ;ngap_bis
+K13,5; Nettoyage ou pansement d'une brulure face ou main < à 10 cm2 ;ngap_bis
+K16; Nettoyage ou pansement d'une brulure > à 10 % de la surface du corps ;ngap_bis
+K24; Nettoyage ou pansement d'une brulure > à 10 % de la surface face ou main ;ngap_bis
+MSH; Suivi de sortie d'hospitalisation pour un patient à forte comorbité ;ngap_ter
+MIC; Suivi de suite d'hospitalisation pour décompensation d'Insuffisance cardiaque ;ngap_ter
+MIS; Consultation initiale d'annonce pathologie grave ;ngap_ter

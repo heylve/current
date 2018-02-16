@@ -1,0 +1,124 @@
+Code;Type;Libell‚ court
+DEQP003;ATM_ter;lectrocardiogramme
+EQQM006;ATM_quater;Mesure de la pression intraart‚rielle d'un membre en au moins 3 points
+QEHA001;ADC;Biopsie de l?ar‚ole
+QZNP005;ATM;Cryoth‚rapie de plus de 50 l‚sions du corps
+QZNP012;ATM;Cryoth‚rapie de 11 … 50 l‚sions du corps
+QZHA003;ADC;Biopsie de la tablette, du repli et/ou du lit de l'ongle 
+JHFA015;ADC;Ex‚rŠse de l‚sion de la peau du p‚nis, du gland et/ou du sillon balanopr‚putial
+JHHA001;ADC;Biopsie du p‚nis
+JHNP001;ATM;Destruction de l‚sion du gland et/ou du pr‚puce du p‚nis
+JZNP001;ATM;Destruction de 10 … 50 l‚sions p‚rin‚ales
+JZNP002;ATM;Destruction de moins de 10 l‚sions p‚rin‚ales
+JZNP003;ATM;Destruction de 51 l‚sions p‚rin‚ales ou plus, ou de l‚sion p‚rin‚ale de plus de 30 cmı
+BAHA001;ADC;Biopsie de la paupiŠre
+CAFA005;ADC_bis;Ex‚rŠse de nodule douloureux de l'auricule
+CAHA001;ADC_ter;Biopsie de la peau de l?oreille externe
+CAHA002;ADC_ter;Biopsie du cartilage de l'oreille externe
+GAHA001;ADC_ter;Biopsie de la peau du nez et /ou de la muqueuse narinaire
+HAHA002;ADC_ter;Biopsie de la lŠvre
+QZFA001;ADC_bis;Ex‚rŠse de 2 … 5 l‚sions souscutan‚es susfasciales de moins de 3 cm de grand axe
+QZFA002;ADC_bis;Ex‚rŠse d'une l‚sion souscutan‚es susfasciale de moins de 3 cm de grand axe
+QZHA005;ADC_ter;Biopsie des tissus souscutan‚s susfaciaux
+QZFA010;ADC;Ex‚rŠse tangentielle de 1 … 20 molluscum contagiosum
+QZFA013;ADC;Curetage de 1 … 5 l‚sions
+QZFA015;ADC;Ex‚rŠse tangentielle de 21 molluscum contagiosum ou plus
+QZFA021;ADC;Ex‚rŠse tangentielle de 6 l‚sions cutan‚es ou plus
+QZFA022;ADC;Curetage de plus 6 l‚sions
+QZFA028;ADC;Ex‚rŠse tangentielle de 1 … 5 l‚sions cutan‚es
+QZFA031;ADC_bis;Ex‚rŠse d?une l‚sion superficielle de 2 … 5 zones < 5 cm2
+QZFA036;ADC_bis;Ex‚rŠse d?une l‚sion superficielle de moins de 5 cm2
+QZHA001;ADC_ter;Biopsie dermo‚pidermique
+QZNP013;ATM;Electrocoagulation de 1 … 5 l‚sions
+QZNP025;ATM;Electrocoagulation de plus de 6 l‚sions
+JMFA002;ADC;Ex‚rŠse de l‚sion vulvop‚rin‚ale
+JMFA002;ADC;Ex‚rŠse de l‚sion vulvop‚rin‚ale
+JMHA001;ADC_ter;Biopsie de la vulve
+JMPA005;ADC;Incision de collection vulvop‚rin‚ale
+QZNP004;ATM;Cryoth‚rapie de 1 … 10 l‚sions du corps
+JKGD001;ATM;Ablation d?un st‚rilet avec mat‚riel de pr‚hension intra-ut‚rin
+JKGE001;ADC;Ablation d?un corps ‚tranger intra-vaginal
+JKHD001;ATM_bis;Frottis cervico-ut‚rin
+JKKD001;ATM;Changement d?un st‚rilet
+JKLD001;ATM;Pose d'un st‚rilet
+QANP005;ATM;Cryoth‚rapie de plus de 11 l‚sions du visage
+QANP007;ATM;Cryoth‚rapie de 1 … 10 l‚sions du visage
+QZGA002;ADC;Ablation ou changement d?un implant hormonal
+QZLA004;ADC;Pose Implant Hormonal
+BLQP008;ATM;Exploration du sens chromatique
+BLQP010;ATM;Examen de la vision binoculaire
+BLQP012;ATM;Evaluation de l?acuit‚ visuelle par la technique du regard pr‚f‚rentiel
+BDGP002;ATM;Ablation d?un corps ‚tranger superficiel de la corn‚e
+BDGP003;ATM;Ablation de plusieurs corps ‚trangers superficiels de la corn‚e
+BJQP002;ATM;Examen fonctionnel de la motricit‚ oculaire
+CDRP002;ATM;Epreuves de d‚pistage de surdit‚
+GAGD002;ATM;Ablation de corps ‚tranger de la cavit‚ nasale
+CAGD001;ATM;Ablation d'un bouchon de c‚rumen simple
+CAGD002;ATM;Ablation d'un bouchon de c‚rumen ‚pidermique
+CDQP010;ATM;Audiom‚trie tonale ou vocale
+CDQP012;ATM;Audiom‚trie tonale et vocale
+CERP002;ATM;Man?uvre lib‚ratoire du vertige rotatoire
+GABD001;ATM;Tamponnement nasal ant‚rieur et post‚rieur
+GABD001;ATM;Tamponnement nasal ant‚rieur et post‚rieur
+GABD002;ATM;Tamponnement nasal ant‚rieur
+GABD002;ATM;Tamponnement nasal ant‚rieur
+NFMP001;ATM;Confection d?une contention souple du genou
+NFMP002;ATM;Confection d'une attelle de posture ou de mobilisation du genou
+NGMP001;ATM;Confection d?une contention souple de la cheville et/ou du pied, ou confection d?une semelle plƒtr‚e 
+NGMP001;ATM;Confection d'une contention souple de la cheville et/ou du pied, ou confection d'une semelle plƒtr‚e
+NZMP003;ATM;Confection d'un appareil rigide d'immobilisation de la jambe, de la cheville et/ou du pied ne prenant pas le genou
+NZMP006;ATM;Confection d'un appareil rigide f‚morocrural [f‚morojambier] ou f‚morop‚dieux pour immobilisation initiale de fracture du membre inf‚rieur, sans r‚duction 
+NZMP007;ATM;Confection d'un appareil rigide d'immobilisation du membre inf‚rieur prenant le genou
+MADP001;ATM;Contention orthop‚dique unilat‚rale ou bilat‚rale de fracture de la clavicule
+MGMP001;ATM;Confection d'une attelle de posture ou de mobilisation du poignet et/ou de la main
+MZMP001;ATM;Confection d?une contention souple d?une articulation du membre sup‚rieur 
+MZMP004;ATM;Confection d?un appareil rigide au poignet et/ou … la main pour immobilisation initiale de fracture du membre sup‚rieur, sans r‚duction 
+MZMP006;ATM;Confection d'un appareil rigide d'immobilisation de l'avant-bras, du poignet et/ou de la main ne prenant pas le coude
+MZMP013;ATM;Confection d?un appareil rigide ant‚brachiopalmaire pour immobilisation initiale de fracture du membre sup‚rieur, sans r‚duction 
+YYYY011;ATM;Prise en charge diagnostique et th‚rapeutique dans le mˆme temps d'une l‚sion ost‚o-articulaire, musculo-tendineuse ou des parties molles d'origine traumatique
+MJPA010;ADC;Incision ou excision d'un panaris superficiel
+QCJA001;ADC;Parage et/ou suture de plaie profonde de la main
+QAGA001;ADC;Ablation de plusieurs corps ‚trangers profonds de la peau et des tissus mous du visage et/ou des mains
+QAGA002;ADC;Ablation de plusieurs corps ‚trangers superficiels de la peau du visage et/ou des mains
+QAGA003;ADC;Ablation d'un corps ‚tranger superficiel de la peau du visage ou des mains
+QAGA004;ADC;Ablation d'un corps ‚tranger profond des tissus mous du visage ou des mains
+BACA008;ADC;Suture de plaie du sourcil 
+BAPA002;ADC;Incision unilat‚rale ou bilat‚rale de collection de paupiŠre
+CAJA002;ADC;Parage et/ou suture de plaie de l'auricule
+GAJA002;ADC;Parage et/ou suture de plaie du nez
+HAJA003;ADC;Parage et/ou suture de plaie cutan‚e non transfixiante de lŠvre
+HAJA006;ADC;Parage et/ou suture de plaie transfixiante de lŠvre
+QAJA002;ADC;Parage et/ou suture de plaie super?cielle de la face de plus de 10 cm
+QAJA004;ADC;Parage et/ou suture de plaie profonde de la face de moins de 3 cm
+QAJA005;ADC;Parage et/ou suture de plaie super?cielle de la face de 3 cm … 10 cm
+QAJA006;ADC;Parage et/ou suture de plaie profonde de la face de 3 cm … 10 cm
+QAJA012;ADC;Parage et/ou suture de plaie profonde de la face de plus de 10 cm
+QAJA013;ADC;Parage et/ou suture de plaie super?cielle de la face de moins de 3 cm
+EGJA001;ADC;vacuation d'une thrombose h‚morro‹daire externe
+QZGA003;ADC;Ablation d'un corps ‚tranger profond des tissus mous, en dehors du visage et des mains
+QZGA004;ADC;Ablation d'un corps ‚tranger superficiel de la peau, en dehors du visage et des mains
+QZGA006;ADC;Ablation de plusieurs corps ‚trangers profonds de la peau et des tissus mous, en dehors du visage et des mains
+QZGA007;ADC;Ablation de plusieurs corps ‚trangers superficiels de la peau, en dehors du visage et des mains
+QZJA001;ADC;Parage et/ou suture de plaie profondede plus de 10 cm, en dehors de la face et de la main
+QZJA002;ADC;Parage et/ou suture de plaie super?cielle de moins de 3 cm, en dehors de la face
+QZJA009;ADC;vacuation de collection superficielle de la peau, par abord direct
+QZJA012;ADC;Parage et/ou suture de plaie profonde de 3 cm … 10 cm, en dehors de la face et de la main
+QZJA015;ADC;Parage et/ou suture de plaie super?cielle de plus de 10 cm, en dehors de la face
+QZJA016;ADC;Parage et/ou suture de plaie profonde de moins de 3 cm, en dehors de la face et de la main
+QZJA017;ADC;Parage et/ou suture de plaie super?cielle de 3 cm … 10 cm, en dehors de la face
+QZJA021;ADC;Parage et/ou suture de plusieurs plaies pulpo-ungu‚ales
+QZJA022;ADC;Parage et/ou suture d'une plaie pulpo-ungu‚ale 
+QZJB002;ADC;vacuation de collection superficielle et/ou profonde de la peau et des tissus mous
+GLQP012;ATM;Spirom‚trie standardÿ
+ALQP003;ATM;Test d'‚valuation d'une d‚pression
+ALQP006;ATM;Test d'‚valuation d'un d‚ficit cognitif
+NZHB002;ATM;Ponction articulaire du membre inf‚rieur
+NZLB001;ATM;Infiltration du membre inf‚rieur
+AHLB006;ATM;Infiltration du canal carpien
+MZHB002;ATM;Ponction articulaire du membre sup‚rieur
+MZLB001;ATM;Infiltration du membre sup‚rieur
+YYYY010;ATM;Traitement de premier recours n‚cessitant des actes techniques et la pr‚sence prolong‚e du m‚decin
+FSD;;Forfait de soins dermatologiques
+YYYY490;exi;Suppl‚ment pour ‚lectrocardiographie r‚alis‚e au domicile du patient
+;;
+;;
