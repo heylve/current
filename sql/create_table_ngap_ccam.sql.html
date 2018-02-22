@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>~/Documents/Current/sql/create_table_ngap_ccam.sql.html</title>
+<meta name="Generator" content="Vim/8.0">
+<meta name="plugin-version" content="vim7.4_v2">
+<meta name="syntax" content="sql">
+<meta name="settings" content="use_css,pre_wrap,no_foldcolumn,prevent_copy=">
+<meta name="colorscheme" content="none">
+<style type="text/css">
+<!--
+pre { white-space: pre-wrap; font-family: monospace; color: #ffffff; background-color: #000000; }
+body { font-family: monospace; color: #ffffff; background-color: #000000; }
+* { font-size: 1em; }
+.Type { color: #00ff00; font-weight: bold; }
+.Constant { color: #ff40ff; font-weight: bold; }
+.Special { color: #ff6060; font-weight: bold; }
+.Statement { color: #ffff00; font-weight: bold; }
+-->
+</style>
+
+<script type='text/javascript'>
+<!--
+
+-->
+</script>
+</head>
+<body>
+<pre id='vimCodeElement'>
+<span class="Special">Table</span>	Create Table ngap_ccam
+<span class="Statement">CREATE</span> <span class="Special">TABLE</span> `ngap_ccam`
+(`id` int(<span class="Constant">11</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span> AUTO_INCREMENT,
+ `code_acte` <span class="Type">char</span>(<span class="Constant">10</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `homme` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `femme` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `age_min` int(<span class="Constant">3</span>) <span class="Special">DEFAULT</span> <span class="Special">NULL</span>,
+  `age_max` int(<span class="Constant">3</span>) <span class="Special">DEFAULT</span> <span class="Special">NULL</span>,
+  `hors_psc` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `cabinet` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `visite` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `urgence` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `maj_m` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `garde` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `asso_g_gs` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `asso_vg_vgs` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `maj_j` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  `maj_r` tinyint(<span class="Constant">1</span>) <span class="Statement">NOT</span> <span class="Special">NULL</span>,
+  PRIMARY KEY (`id`),
+  KEY `acte` (`code_acte`)
+  ) ENGINE=MyISAM AUTO_INCREMENT=<span class="Constant">137</span> <span class="Special">DEFAULT</span> CHARSET=latin1
+</pre>
+</body>
+</html>
+<!-- vim: set foldmethod=manual : -->
