@@ -4,3 +4,6 @@ var/cache/
 php_tests/Symfony/var/cache
 php_tests/Symfony/var/logs
 php_tests/Symfony/vendor
+grokking_algorithms/*
+sql/SQLDumpSplitterResult/*
+sql/*ign*
