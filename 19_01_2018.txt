@@ -1,3 +1,60 @@
 kkdkd   monday 8th of January 2018
-Wed Feb 21 14:50:05     2018
+kkdkd   monday 8th of January 2018
+WEd Feb 21 14:50:05     2018
+WEd Feb 21 14:50:05     2018
+TuE Apr 10 16:34:12     2018
+
+Admin_gEnerale
+AltErnant_docx
+KEyPass.kdbx
+P18.txt18.txt18.txt18.txt18.txt18.txt18.txtrEsentations R18.txt18.txt18.txt18.txt18.txtencontre_devs
+a_js
+admin_pErso
+appli_installation_docx backup_currEnt_folders.bat backup_current_folders.cmd
+blah.txt
+blah_utf16.txt
+chEck_gitignore.sh
+cnamts_prEsentation
+dEmandes_notes_opportunités
+docx_html
+docx_words
+docxumEntation_s8p_etc
+Estimation_projets_nationaux_2018
+Estimation_projets_nationaux_2018
+Estimation_projets_nationaux_2018
+Exclude-list.txt
+gdmap
+Exclude-list.txt
+gdmap
+grokking_algorithms
+journEe_metier
+luctEst.txt
+php_test
+propal_appli_mEd
+php_test
+php_test
+php_test
+php_test
+php_test
+<!DOCTYPE html>
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<body>
+
+		<div ng-app="">
+			  <p>Name: <input type="text" ng-model="name"></p>
+			    <p ng-bind="name"></p>
+		</div>
+
+	</body>
+</html>
+py_proj
+qErsi
+rsync_l.bat
+sql
+tEst.cmd
+tEsthidden.txt
+tEstlink-1.9.16
+tEstrsync.txt
+thEmis_docx
 ------------------
