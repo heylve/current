@@ -1,0 +1,99 @@
+Prochaine réunion le 14 mai
+
+Mail avec détails des données saisies , fournies etc et refus de rédiger le DAF
+
+Atelier du 20 Mars
+
+Accès BDO familial ou MOD( à définir)
+Document sur les données entrées sorties saisies etc à compléter pour le 28 Mars
+CSDA le 5 Avril COMEN à suivre
+
+Accrochage SI ORPHEE ou son remplaçant ATEMPO
+Données pour MP ou AT une douzaine de champs à resaisir
+Pour RM (Risques maladie) fraude, moins de données à saisir
+-          28 mars : retour des 2 documents complétés,
+
+-          5 avril : passage en CSDA du DAF + validation des options retenues dans le DAV0
+
+-          11 avril : passage en COMEN
+
+
+
+Atelier mardi 20 mars 14h
+Paris + audio 02 90 08 59 00 (Numéro : 74463 / Code : 7399)
+
+
+
+CR réunion du vendredi 16 février 2018
+
+Audio conf :
+02 90 08 59 00
+72260 puis  1951
+
+55.91.4.43:7080  (machine de test )
+Alexandre démarre sur le module de statistiques.
+
+Dossier Application Fonctionnelle DAF réalisé
+Eric Brunet pour le dossier architecture technique.
+ISP en cours 
+WOPI protocol (REST) entre Themis et Open Office Online
+
+Pour info assuré requête RFI mais on a pas l'adresse postale , recherhc autre bases
+si BDO 
+Question si web service ADNj (schéma archi) national mis en place fin juin2018 (quelle clé, le numéro de siret
+ou numéro ucans)
+
+RFI => Tuxedo => NIR => RFI => manque de données
+BDO famille on l'adresse postale qui est indispensable dans Themis (problème de latence par rapport à RFI)
+HTTPS partout avec jeton
+
+Charge sur serveur libre office online nb de connexion max (5000 users mais 400 agents enquêteurs)
+Mise en place de timeout de connexion
+4600 dossiers 1000 dossiers par an 5% d'augmentation 
+Pourcentage entre enquêtes ATM/MP  et Fraude (70% / 30%)
+
+
+
+Réponse officielle...toujours pas transmise.
+
+Plan de charge interne prioritaire par rapport à THEMIS WEB
+Regularité des réunions/points
+qui pilote Maitrise D'ouvrage CNAMTS à quel degré ?
+Les étapes ...planing prévu envisagé On FIXE une réunion par mois
+Avec un interlocuteur Technique UNIQUE
+Les APIs BDO etc pour les logs
+Version 1 sans module OFFLINE
+Dotation de 6 mois uniquement...
+
+Le module offline, doit il être une priorité ? si 4G.. disponible
+mais est-ce que la couverture 4g est meilleure que la 3 G question de débit mais de couverture en fait.
+
+Vendredi 19 janvierreunion fonctionnelle avec Annabelle
+1 mars CSDA
+15 mars COMEN  -> et jalons (chef de projet archi technique)
+Dossier architecture fonctionnelle et dossier architecture solutions
+
+
+2 février bilan fonctionnelle :
+Le module nomade de themis n'est plus prioritaire
+
+Volumétrie (200 dossiers par an par agent) 7 agents CPAM44
+
+Les questions fonctionnelles en suspens concerne : 
+- Le partage des dossiers entre caisse
+(partie mutualisation faîte par JLuc est à "parfaire" si on veut répondre à leurs demandes)
+que les demandes d'enquête extérieurs (cpam49 pour cpam44) attachées à un dossier soient visibiles au niveau des dossiers
+(différence entre dossiers sans demande extèrieures et avec)
+que le complément d'enquête fait par un agent cpam49 pour un dossier 44 soit traçable administrativement.
+Demandes extèrieurs d'enquêtes la plupart par courrier...délai de traitement ...trop long les faire directement dans Thémis en sélectionnant la caisse cible de la demande d'enquête extèrieure
+- Régles de gestion d'attribution des dossiers par code postal (avec possibilité de manuellement affecté un dossier à une personne autre secteur) possibilité de rajouter des régles de gestion des instanciers  par CPAM
+- Portail agent solution en remplacement de mediam (en cours de dev) liason très improbable
+- les maquettes de PV (avec des champs qui peuvent changer , et lié à une  table) et les logos notes de bas de page etc..ne sont pas aussi aisées à gérer qu'avec Word via VB.
+- l'administration (séparation admin local et national)
+- l'archivage (dans l'application) et cron pour les archivages nationaux
+- les Tableaux de BORD sont satisfaisants (stats par organisme) 
+
+Prochaine réunion le vendredi 16 février 10h
+
+
+
