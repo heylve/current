@@ -40,8 +40,7 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
 	$name = $args['name'];
 	$response->getBody()->write("Hello, $name");
 	$this->logger->addInfo('Something interesting happened');
-	$this->db->query("select  * from ccam;");
-	//$mapper = new CotationMapper($this->db);
+	//$this->db->query("select  * from ccam;");
 	return $response;
 });
 
