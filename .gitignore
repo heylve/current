@@ -9,3 +9,4 @@ qersi/*
 vendor/*
 php_tests/spatie/*
 php_tests/slim_cot/vendor*
+php_tests/symf4/*
