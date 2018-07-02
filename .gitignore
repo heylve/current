@@ -10,4 +10,9 @@ vendor/*
 php_tests/spatie/*
 php_tests/slim_cot/vendor*
 **/php_tests/symf4/first/*
-./php_tests/symf4/*
+php_tests/symf4
+**/php_tests/phpWebCralwer*
+php_tests/phpWebCrawler/
+php_tests
+**/php_tests
+/php_tests/phpWebCrawler
