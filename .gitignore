@@ -7,6 +7,7 @@
 *testlink*
 qersi/*
 vendor/*
+php_tests/proj1/*
 php_tests/spatie/*
 php_tests/slim_cot/vendor*
 **/php_tests/symf4/first/*
