@@ -1,0 +1,5 @@
+{
+    "require": {
+        "symfony/web-profiler-bundle": "^4.1"
+    }
+}

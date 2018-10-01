@@ -1,0 +1,31 @@
+ID,Nom,Date de début,Date de fin,Durée,Avancée,Responsable,Prédécesseurs,Numéro hiérarchique,Lien internet,Ressources,Notes
+0,Réorganisation des listes d'actions,15/10/18,17/10/18,3,0,,,1,,,
+1,Pièces jointes dans les actions,18/10/18,25/10/18,6,0,,0,2,,," Deux possibilités :
+
+- Lien vers un serveur windows (SAMBA, WEBDAV) où seront stockées les pièces jointes, contrat de travail, certificat de conformité électrique de la résidence d'un télétravailleur etc.
+
+- Upload 'simple' d'un document pour une action. GDMAP n'a pas vocation à être maitre (GED) du document, exemple si un document évolue au dehors de GDMAP, le document GDMAP n'est plus à jour, (problème de duplicata/version)
+
+- Quid de la partie nominative des documents (MSSI) si contrat ou autre document nominatif"
+4,web_service pour création de mouvement pour des applications tierces,26/10/18,02/11/18,5,0,,1,3,,,
+10,Info bulles / auto complétion (ergonomie) Formulaires de saisies,05/11/18,06/11/18,2,0,,4,4,,,"Services / Nom du service pas le chemin ANR  /DRHM/PINF
+Info bulles"
+14,Mouvements en masse de personnel,07/11/18,14/11/18,6,0,,10,5,,,"TO do list
+mais anonyme pour le groupe de personnes en ""mouvement""
+Trop de contrats différents dans le groupe etc..GDMAP pas fait pour ça"
+75,Notificatoions par email,15/11/18,19/11/18,3,0,,14,6,,,"- Spécifications à écrire
+Sylvie RH cpam44 et cpam Bas Rhin
+
+- Mail envoyé au service / personne
+- Quand dès que l'action précédente est terminée 
+- Copie du mail oui/non si oui à qui?
+- Rappel à X jours si action toujours pas effectuée
+
+"
+26,Validation d'actions par une caisse tierse (TRAM),20/11/18,30/11/18,9,0,,75,7,,,"Délégation à une caisse sur une action 
+
+Référentiel / action à effectuer par une autre caisse
+ 1 - Seulement un mail à la caisse en charge et validation par la caisse gérant le mouvement
+
+2 - Accès de la caisse distante au mouvement et à l'action
+"

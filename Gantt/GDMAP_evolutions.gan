@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="GDMAP_evo" company="" webLink="http://" view-date="2018-10-15" view-index="0" gantt-divider-location="627" resource-divider-location="300" version="2.0" locale="fr">
+    <description><![CDATA[Chiffrage demandes évolutions]]></description>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="68" order="0"/>
+        <field id="tpd4" name="Date de début" width="5" order="1"/>
+        <field id="tpd5" name="Date de fin" width="25" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="56" order="0"/>
+        <field id="1" name="Rôle par défaut" width="43" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="2012" month="1" date="2"/>
+        <date year="2012" month="4" date="9"/>
+        <date year="2012" month="5" date="17"/>
+        <date year="2012" month="5" date="28"/>
+        <date year="2012" month="11" date="12"/>
+        <date year="2005" month="3" date="28"/>
+        <date year="" month="1" date="1"/>
+        <date year="" month="5" date="1"/>
+        <date year="" month="5" date="8"/>
+        <date year="" month="7" date="14"/>
+        <date year="" month="8" date="15"/>
+        <date year="" month="11" date="1"/>
+        <date year="" month="11" date="11"/>
+        <date year="" month="12" date="25"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Réorganisation des listes d'actions" color="#8cb6ce" meeting="false" start="2018-10-15" duration="3" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="Pièces jointes dans les actions" color="#6666ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-10-18" duration="6" complete="0" expand="true">
+            <notes><![CDATA[ Deux possibilités :
+
+- Lien vers un serveur windows (SAMBA, WEBDAV) où seront stockées les pièces jointes, contrat de travail, certificat de conformité électrique de la résidence d'un télétravailleur etc.
+
+- Upload 'simple' d'un document pour une action. GDMAP n'a pas vocation à être maitre (GED) du document, exemple si un document évolue au dehors de GDMAP, le document GDMAP n'est plus à jour, (problème de duplicata/version)
+
+- Quid de la partie nominative des documents (MSSI) si contrat ou autre document nominatif]]></notes>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="web_service pour création de mouvement pour des applications tierces" color="#0000ff" meeting="false" start="2018-10-26" duration="5" complete="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Info bulles / auto complétion (ergonomie) Formulaires de saisies" color="#ff6666" meeting="false" start="2018-11-05" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Services / Nom du service pas le chemin ANR  /DRHM/PINF
+Info bulles]]></notes>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Mouvements en masse de personnel" color="#33cc00" meeting="false" start="2018-11-07" duration="6" complete="0" expand="true">
+            <notes><![CDATA[TO do list
+mais anonyme pour le groupe de personnes en "mouvement"
+Trop de contrats différents dans le groupe etc..GDMAP pas fait pour ça]]></notes>
+            <depend id="75" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="75" name="Notificatoions par email" color="#99ffcc" meeting="false" start="2018-11-15" duration="3" complete="0" expand="true">
+            <notes><![CDATA[- Spécifications à écrire
+Sylvie RH cpam44 et cpam Bas Rhin
+
+- Mail envoyé au service / personne
+- Quand dès que l'action précédente est terminée 
+- Copie du mail oui/non si oui à qui?
+- Rappel à X jours si action toujours pas effectuée
+
+]]></notes>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" name="Validation d'actions par une caisse tierse (TRAM)" color="#0000cc" meeting="false" start="2018-11-20" duration="9" complete="0" expand="true">
+            <notes><![CDATA[Délégation à une caisse sur une action 
+
+Référentiel / action à effectuer par une autre caisse
+ 1 - Seulement un mail à la caisse en charge et validation par la caisse gérant le mouvement
+
+2 - Accès de la caisse distante au mouvement et à l'action
+]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="425" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="37" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="161" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
