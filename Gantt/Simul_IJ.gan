@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Simul_IJ" company="cpam44" webLink="http://" view-date="2018-10-15" view-index="0" gantt-divider-location="762" resource-divider-location="300" version="2.0" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Simul_IJ" company="cpam44" webLink="http://" view-date="2018-10-01" view-index="0" gantt-divider-location="685" resource-divider-location="300" version="2.0" locale="fr">
     <description><![CDATA[Projet de simulation d'indemnités journalières]]></description>
-    <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="65" order="0"/>
-        <field id="tpd4" name="Date de début" width="18" order="1"/>
-        <field id="tpd5" name="Date de fin" width="15" order="2"/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="72" order="0"/>
+        <field id="tpd4" name="Date de début" width="7" order="1"/>
+        <field id="tpd5" name="Date de fin" width="20" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="50" order="0"/>
@@ -49,116 +49,143 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Création template des écrans Ecrans questions" color="#000000" meeting="false" start="2018-10-22" duration="18" complete="0" expand="true">
-            <depend id="1" type="2" difference="0" hardness="Strong"/>
-            <task id="6" name="Ecran 0 Accueil (Mentions légales etc)" color="#8cb6ce" meeting="false" start="2018-10-22" duration="1" complete="0" expand="true"/>
-            <task id="7" name="Ecran 1  Ma situation - Que dois je faire ? -  Combien et quand je serai indemnisé ?" color="#9999ff" meeting="false" start="2018-10-22" duration="1" complete="0" expand="true">
+        <task id="0" name="Création template des écrans Ecrans questions" color="#000000" meeting="false" start="2018-10-15" duration="18" complete="0" expand="true">
+            <task id="6" name="Ecran 1 « Accueil » Accueil (Mentions légales etc)" color="#8cb6ce" meeting="false" start="2018-10-15" duration="1" complete="0" expand="true"/>
+            <task id="7" name="Ecran 2 « Blocs »  Ma situation - Que dois je faire ? -  Combien et quand je serai indemnisé ?" color="#9999ff" meeting="false" start="2018-10-15" duration="1" complete="0" expand="true">
                 <depend id="8" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="8" name="Ecran 2 Ma situation actif sans activité autres (artistes, dockers etc) E1 E2 E21 =&gt; CAS 1a" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" expand="true"/>
-            <task id="9" name="Ecran 3 Nombre d'heures travaillées dans les  3 mois précédent l'arrêt -    &gt; ou &lt; à 150h" color="#9999ff" meeting="false" start="2018-10-23" duration="1" complete="0" expand="true">
+            <task id="8" name="Ecran 21 « Activité » Ma situation actif sans activité autres (artistes, dockers etc) E1 E2 E21 =&gt; CAS 1a" color="#8cb6ce" meeting="false" start="2018-10-16" duration="1" complete="0" expand="true"/>
+            <task id="9" name="Ecran 211 « Heures.A » Nombre d'heures travaillées dans les  3 mois précédent l'arrêt -    &gt; ou &lt; à 150h" color="#9999ff" meeting="false" start="2018-10-16" duration="1" complete="0" expand="true">
                 <depend id="10" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="10" name="Ecran 4 Un seul ou plusieurs employeurs ( plus de 150h d'activité)" color="#8cb6ce" meeting="false" start="2018-10-24" duration="1" complete="0" expand="true"/>
-            <task id="11" name="Ecran 5 Mon employeur : Entreprise ou  particulier (CESU,TESE, pagemploi)" color="#9999ff" meeting="false" start="2018-10-24" duration="1" complete="0" expand="true">
+            <task id="10" name="Ecran 2111 « Employeur.150H » Un seul ou plusieurs employeurs ( plus de 150h d'activité)" color="#8cb6ce" meeting="false" start="2018-10-17" duration="1" complete="0" expand="true"/>
+            <task id="11" name="Ecran 21111 « Employeur.U.Type » Mon employeur : Entreprise ou  particulier (CESU,TESE, pagemploi)" color="#9999ff" meeting="false" start="2018-10-17" duration="1" complete="0" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="12" name="Ecran 6 Mon entreprise pratique la subrogation (oui,non ne sais pas)" color="#8cb6ce" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true"/>
-            <task id="16" name="Ecran 7 plusieurs Employeurs (Entreprise ou Particuliers ou un mixte)" color="#8cb6ce" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true">
+            <task id="12" name="Ecran 211111 « Subro.U » Mon entreprise pratique la subrogation (oui,non ne sais pas)" color="#8cb6ce" meeting="false" start="2018-10-18" duration="1" complete="0" expand="true"/>
+            <task id="16" name="Ecran 21112 « Employeur.P.Type »plusieurs Employeurs (Entreprise ou Particuliers ou un mixte)" color="#8cb6ce" meeting="false" start="2018-10-18" duration="1" complete="0" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="17" name="Ecran 8 Mes employeurs pratiquent tous la subrogation oui/non ne sais pas" color="#8cb6ce" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true"/>
-            <task id="18" name="Ecran 9 Dans les 12 mois précédent mon arrêt +/- de 600 heures travaillées" color="#8cb6ce" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true">
+            <task id="17" name="Ecran 211121 « Subro.P » Mes employeurs pratiquent tous la subrogation oui/non ne sais pas" color="#8cb6ce" meeting="false" start="2018-10-19" duration="1" complete="0" expand="true"/>
+            <task id="18" name="Ecran 2112 « Heuresb.A » Dans les 12 mois précédent mon arrêt +/- de 600 heures travaillées (Heuresb.A)" color="#8cb6ce" meeting="false" start="2018-10-19" duration="1" complete="0" expand="true">
                 <depend id="19" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="19" name="Ecran 10 Je suis indemnisé par pôle emploi au moment de mon arrêt oui/non" color="#8cb6ce" meeting="false" start="2018-10-29" duration="1" complete="0" expand="true"/>
-            <task id="20" name="Ecran 11 avant pôle emploi : activité régulière/ irrégulièr" color="#8cb6ce" meeting="false" start="2018-10-29" duration="1" complete="0" expand="true"/>
-            <task id="21" name="Ecran 12 :  appeler le 3646 Cas 1a 1b 1c 1d" color="#8cb6ce" meeting="false" start="2018-10-31" duration="1" complete="0" expand="true"/>
-            <task id="23" name="Ecran 13:  RienAFaire (l'employeur fournit l'attestation  de salaire) Subrogation Cas 2a  2b" color="#8cb6ce" meeting="false" start="2018-10-31" duration="1" complete="0" expand="true">
+            <task id="19" name="Ecran 212 « Indem.SA » Je suis indemnisé par pôle emploi au moment de mon arrêt oui/non" color="#8cb6ce" meeting="false" start="2018-10-22" duration="1" complete="0" expand="true"/>
+            <task id="20" name="Ecran 2121 « Regul.SA » avant pôle emploi : activité régulière/ irrégulièr" color="#8cb6ce" meeting="false" start="2018-10-22" duration="1" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Ecran Cas 1 (2.2.1) :  appeler le 3646 Cas 1a 1b 1c 1d  + Téléchargements en pdf" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" expand="true"/>
+            <task id="23" name="Ecran Cas 2a (2.2.2.1):  l'employeur fournit l'attestation  de salaire) Subrogation Cas 2a  2b" color="#8cb6ce" meeting="false" start="2018-10-23" duration="1" complete="0" expand="true">
                 <depend id="22" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="22" name="Ecran 14 : RienAFaire Sans subrogation La cpam vous verse vos IJ" color="#8cb6ce" meeting="false" start="2018-11-02" duration="1" complete="0" expand="true"/>
-            <task id="25" name="Ecran 15: vous n'avez rien à faire (l'employeur fournit l'attestation de salaire)  si pas de subrogation la cpam fait le versement à vous sinon à l'employeur" meeting="false" start="2018-11-02" duration="1" complete="0" expand="true">
+            <task id="22" name="Ecran Cas 3a (2.2.3.1) :  L'employeur fournit l'attestation de salire La cpam vous verse vos IJ" color="#8cb6ce" meeting="false" start="2018-10-24" duration="1" complete="0" expand="true"/>
+            <task id="25" name="Ecran Cas 4a (2.2.4.1)   (l'employeur fournit l'attestation de salaire)  si pas de subrogation la cpam fait le versement à vous sinon à l'employeur" meeting="false" start="2018-10-24" duration="1" complete="0" expand="true">
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="26" name="Ecran 16 : vous n'avez rien à faire , l'employeur fournit l'attestation de salaire  grâce la subrogation la cpam verse directement à vos employeurs" meeting="false" start="2018-11-05" duration="1" complete="0" expand="true"/>
-            <task id="27" name="Ecran 17 : vous n'avez rien à faire vos employeurs fournissent des attestations de salaire à la cpam qui vous versera vos IJ" meeting="false" start="2018-11-05" duration="1" complete="0" expand="true">
+            <task id="26" name="Ecran Cas 2b (2.2.2.2) : l'employeur fournit l'attestation de salaire  grâce la subrogation la cpam verse directement à vos employeurs" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true"/>
+            <task id="27" name="Ecran Cas 3b (2.2.3.2) : vous n'avez rien à faire vos employeurs fournissent des attestations de salaire à la cpam qui vous versera vos IJ" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true">
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="28" name="Ecran 18 :vous n'avez rien à faire vos employeurs (subrogation) fournissent une attestation de salaire et versement de la cpam à vos employeurs pour ceux ne pratiquant pas la subrogation versement de la cpam sur votre compte" meeting="false" start="2018-11-06" duration="1" complete="0" expand="true"/>
-            <task id="29" name="Ecran 19: Téléchargement et complétion du document d' attestation sur  l'honneur de votre dernier jour travaillé chez votre employeur + copie des 4 derniers bulletins de salaire" meeting="false" start="2018-11-06" duration="1" complete="0" expand="true">
+            <task id="28" name="Ecran Cas 4b (2.2.4.2) :vous n'avez rien à faire vos employeurs (subrogation) fournissent une attestation de salaire et versement de la cpam à vos employeurs pour ceux ne pratiquant pas la subrogation versement de la cpam sur votre compte" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true"/>
+            <task id="29" name="Ecran Cas 5a (1) (2.2.5.1): Téléchargement et complétion du document d' attestation sur  l'honneur de votre dernier jour travaillé chez votre employeur + copie des 4 derniers bulletins de salaire" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="30" name="Ecran 20: Que dois-je faire ? transmettre des documents à ma CPAM" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true"/>
-            <task id="31" name="Ecran 21 :  Attestation sur l'honneur  de dernier jour chez chaque employeur  et copie des 4 deniers bulletins de salaire de chaque employeur" color="#00ff00" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true">
+            <task id="30" name="Ecran Cas 5a (2) (2.2.5.1): Que dois-je faire ? transmettre des documents à ma CPAM" meeting="false" start="2018-10-29" duration="1" complete="0" expand="true"/>
+            <task id="31" name="Ecran Cas 5b (1) (2.2.5.2) :  Attestation sur l'honneur  de dernier jour chez chaque employeur  et copie des 4 deniers bulletins de salaire de chaque employeur" color="#00ff00" meeting="false" start="2018-10-29" duration="1" complete="0" expand="true">
                 <depend id="81" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="81" name="Ecran 20_bis ???? : Transmettre ces documents votre CPAM" meeting="false" start="2018-11-08" duration="1" complete="0" expand="true"/>
-            <task id="83" name="Ecran 22: Téléchargez et remplissze une attestation sur l'honneur de votre dernier jour travaillé pour CHACUN de vos employeurs et copie de vos 4 derniers bulletin pour CHAQUE employeur" meeting="false" start="2018-11-08" duration="1" complete="0" expand="true">
+            <task id="81" name="Ecran Cas 5b (2) (2.2.5.2) : Transmettre ces documents votre CPAM" meeting="false" start="2018-10-30" duration="1" complete="0" expand="true"/>
+            <task id="83" name="Ecran Cas 6 (1) (2.2.6): Téléchargez et remplissze une attestation sur l'honneur de votre dernier jour travaillé pour CHACUN de vos employeurs et copie de vos 4 derniers bulletin pour CHAQUE employeur" meeting="false" start="2018-10-30" duration="1" complete="0" expand="true">
                 <depend id="33" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="33" name="Ecran 23 : RienAFaire Votre/vos  employeur(s) doit.doivent transmettre une attestation  de salaire à votre cpam Transmettez ces documents à la CPAM" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true"/>
-            <task id="34" name="Ecran 24:  l'employeur diot transmettre une Attesation de salaire à la CPAM + copie des 12 deniers bulletins de salaire pour CHAQUE employeur" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true">
+            <task id="33" name="Ecran Cas 6 (2) (2.2.6) :  Votre/vos  employeur(s) doit.doivent transmettre une attestation  de salaire à votre cpam Transmettez ces documents à la CPAM" meeting="false" start="2018-10-31" duration="1" complete="0" expand="true"/>
+            <task id="34" name="Ecran Cas 7 (1) (2.2.7):  l'employeur diot transmettre une Attesation de salaire à la CPAM + copie des 12 deniers bulletins de salaire pour CHAQUE employeur" meeting="false" start="2018-10-31" duration="1" complete="0" expand="true">
                 <depend id="58" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="58" name="Ecran 25: Transmettez ces documents à votre CPAM par courrier" meeting="false" start="2018-11-12" duration="1" complete="0" expand="true"/>
-            <task id="59" name="Ecran 26 :  Copie notification admission Pole Emploi, Attestation sur l'honneur pour chacun des employeurs précédents" meeting="false" start="2018-11-12" duration="1" complete="0" expand="true">
+            <task id="58" name="Ecran Cas 7 (2) (2.2.7): Transmettez ces documents à votre CPAM par courrier" meeting="false" start="2018-11-02" duration="1" complete="0" expand="true"/>
+            <task id="59" name="Ecran Cas 8 (1) (2.2.8) :  Copie notification admission Pole Emploi, Attestation sur l'honneur pour chacun des employeurs précédents" meeting="false" start="2018-11-02" duration="1" complete="0" expand="true">
                 <depend id="60" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="60" name="Ecran 27:  4 derniers bulletins de salaire pour chaque employeur et les transmettre à votre CPAM" meeting="false" start="2018-11-13" duration="1" complete="0" expand="true"/>
-            <task id="61" name="Ecran 28 : Combien serai-je indemnisé -Employeur(s) pratique(nt) la subrogation  PAS D'estimation" meeting="false" start="2018-11-13" duration="1" complete="0" expand="true">
+            <task id="60" name="Ecran Cas 8 (2) (2.2.8):  4 derniers bulletins de salaire pour chaque employeur et les transmettre à votre CPAM" meeting="false" start="2018-11-05" duration="1" complete="0" expand="true"/>
+            <task id="61" name="Ecran 2.3.1. « IJ.Cas 1 » : Combien serai-je indemnisé -Pour pouvoir étudier en détail votre dossier, nous vous conseillons de prendre contact avec l’un de nos conseillers en" meeting="false" start="2018-11-05" duration="1" complete="0" expand="true">
                 <depend id="62" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="62" name="Ecran 29 : Combien serai-je indemnisé ; indiquez le montant brut perçus sur les 3 mois précédent l'arrêt" meeting="false" start="2018-11-14" duration="1" complete="0" expand="true"/>
-            <task id="63" name="Ecran 30: Combien serai-je indemnisé: Indiquez le montant total de salaires bruts sur les 12 moins précédent l'arrêt" meeting="false" start="2018-11-14" duration="1" complete="0" expand="true">
+            <task id="62" name="Ecran 2.3.2. « IJ.Cas 2a-2b » : Votre/vos employeur(s) pratiquent la subrogation..  Vous n’êtes donc pas concerné par les estimations proposées." meeting="false" start="2018-11-06" duration="1" complete="0" expand="true"/>
+            <task id="63" name="Ecran 2.3.3. « IJ.Cas 3-4-5-6-7-8 »: La présente simulation d'indemnités journalières est un outil d'aide à l'information qui vous permet d'obtenir, en fonction des informations que vous allez saisir," meeting="false" start="2018-11-06" duration="1" complete="0" expand="true">
                 <depend id="64" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="64" name="Ecran 31 :  Le montant bet prévisionnel de votre IJ  est de  : xxx euros" meeting="false" start="2018-11-15" duration="1" complete="0" expand="true"/>
-            <task id="65" name="Ecran 32: Le delai estimé de traitement de votre dossier est  xx jours" meeting="false" start="2018-11-15" duration="1" complete="0" expand="true"/>
+            <task id="64" name="Ecran 2.3.3.1. « IJ.Cas 3-4-5-6-8 » :  Indiquez le montant total des salaires bruts* perçus sur les 3 mois précédant le début de l’arrêt" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true"/>
+            <task id="65" name="Ecran 2.3.3.2. « IJ.Cas 7 »: Indiquez le montant total des salaires bruts* perçus sur les 12 mois précédant le début de l’arrêt" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="85" name="Ecran 2.3.4. « IJ.MTT » Le montant net prévisionnel de votre indemnité journalière est compris entre" meeting="false" start="2018-11-08" duration="1" complete="0" expand="true"/>
+            <task id="86" name="Ecran 2.3.5.  « IJ.DELAI » : Le délai estimé de traitement de votre dossier (après réception de l’ensemble des pièces justificatives) est de :" meeting="false" start="2018-11-08" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="80" name="Ecran d' Aide" color="#000000" meeting="false" start="2018-10-22" duration="9" complete="0" expand="true">
-            <task id="67" name="Ecran 1 : aide /about" meeting="false" start="2018-10-22" duration="1" complete="0" expand="true"/>
-            <task id="68" name="Ecran 2: aide/about seconde page" meeting="false" start="2018-10-22" duration="1" complete="0" expand="true">
+        <task id="80" name="Ecran d' Aide" color="#000000" meeting="false" start="2018-11-09" duration="6" complete="0" expand="true">
+            <task id="67" name="Ecran 1 : aide /about" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true"/>
+            <task id="68" name="Ecran 1: aide/about seconde page" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true">
                 <depend id="69" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="69" name="Ecran 3: aide suite et fin" meeting="false" start="2018-10-23" duration="1" complete="0" expand="true">
-                <depend id="70" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="70" name="Ecran 4: aide sur situation" meeting="false" start="2018-10-24" duration="1" complete="0" expand="true">
+            <task id="69" name="Ecran 1: aide suite et fin" meeting="false" start="2018-11-12" duration="1" complete="0" expand="true"/>
+            <task id="70" name="Ecran 1: aide sur bloc non actif" meeting="false" start="2018-11-12" duration="1" complete="0" expand="true">
                 <depend id="71" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="71" name="Ecran 5: aide sur activités régulières et irrégulières" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true">
-                <depend id="72" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="72" name="Ecran6: aide attestation de salaire" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true">
+            <task id="71" name="Ecran 211 « Heures.A »: aide sur activités régulières et irrégulières" meeting="false" start="2018-11-13" duration="1" complete="0" expand="true"/>
+            <task id="72" name="Ecran Aide Subrogation" meeting="false" start="2018-11-13" duration="1" complete="0" expand="true">
                 <depend id="73" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="73" name="Ecran7 : aide attestation sur l'honneur" meeting="false" start="2018-10-29" duration="1" complete="0" expand="true">
-                <depend id="74" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="74" name="Ecran8: aide bulletion de salaire" meeting="false" start="2018-10-30" duration="1" complete="0" expand="true">
+            <task id="73" name="Ecran 212 « Indem.SA » aide attestation sur l'honneur" meeting="false" start="2018-11-14" duration="1" complete="0" expand="true"/>
+            <task id="74" name="Ecran Aide Attestation de salaire (A2S)" meeting="false" start="2018-11-14" duration="1" complete="0" expand="true">
                 <depend id="75" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="75" name="Ecran9: aide notification admission à pôle emploi" meeting="false" start="2018-10-31" duration="1" complete="0" expand="true">
-                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            <task id="75" name="Ecran Aide Bulletins de salaire  (B2S)" meeting="false" start="2018-11-15" duration="1" complete="0" expand="true"/>
+            <task id="76" name="Ecran Aide Notif Pôle Emploi" meeting="false" start="2018-11-15" duration="1" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="76" name="Ecran 10: aide indemnité journalière" meeting="false" start="2018-11-02" duration="1" complete="0" expand="true"/>
+            <task id="175" name="Ecran Aide Montant IJ" meeting="false" start="2018-11-16" duration="1" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
         </task>
-        <task id="39" name="Apparition des écrans selon arbre de décision" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-        <task id="3" name="backoffice gestion des délais par cas" meeting="false" start="2018-08-20" duration="3" complete="0" expand="true">
-            <task id="38" name="Choix sauvegardes des paramétrages (fichier json ?)" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-            <task id="13" name="Gestion Authentification  et autorisation de l'administrateur" meeting="false" start="2018-08-22" duration="1" complete="0" expand="true"/>
-            <task id="14" name="Delai de paiement" meeting="false" start="2018-08-22" duration="1" complete="0" expand="true"/>
-            <task id="77" name="Adresse postale de la caisse" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-            <task id="78" name="Délai AE" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-            <task id="79" name="Délai PJPE" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-            <task id="15" name="Statistiques (Extraction cvs ou graphiques et tableaux de bord à disposition)" meeting="false" start="2018-08-22" duration="1" complete="0" expand="true"/>
+        <task id="39" name="Apparition des écrans selon arbre de décision" color="#8cb6ce" meeting="false" start="2018-11-19" duration="5" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="36" name="Css-Desing général" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-        <task id="5" name="Calcul et affichage des délais moyens de traitement" meeting="false" start="2018-08-22" duration="1" complete="0" expand="true"/>
-        <task id="4" name="Calcul des IJs et affichage des montants estimes" meeting="false" start="2018-08-22" duration="1" complete="0" expand="true"/>
-        <task id="37" name="Impression résultats" meeting="false" start="2018-08-20" duration="1" complete="0" expand="true"/>
-        <task id="1" name="Tests unitaires et fonctionnels" color="#3300cc" meeting="false" start="2018-11-16" duration="1" complete="0" expand="true"/>
+        <task id="3" name="backoffice gestion des délais par cas" meeting="false" start="2018-11-26" duration="9" complete="0" expand="true">
+            <task id="38" name="Choix sauvegardes des paramétrages (fichier json ? base postgresql, sqlite )" meeting="false" start="2018-11-26" duration="1" complete="0" expand="true">
+                <depend id="192" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="192" name="Ecran Back Office (3 /5 écrans différents)" meeting="false" start="2018-11-27" duration="1" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Gestion Authentification  et autorisation de l'administrateur" color="#8cb6ce" meeting="false" start="2018-11-28" duration="2" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Delai de paiement" meeting="false" start="2018-11-30" duration="1" complete="0" expand="true">
+                <depend id="77" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="77" name="Adresse postale de la caisse" meeting="false" start="2018-12-03" duration="1" complete="0" expand="true">
+                <depend id="78" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="78" name="Délai AE" meeting="false" start="2018-12-04" duration="1" complete="0" expand="true">
+                <depend id="79" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="79" name="Délai PJPE" meeting="false" start="2018-12-05" duration="1" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Statistiques (Extraction cvs ou graphiques et tableaux de bord à disposition)" meeting="false" start="2018-12-06" duration="1" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="36" name="Css-Desing général" color="#8cb6ce" meeting="false" start="2018-12-07" duration="3" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Calcul et affichage des délais moyens de traitement" meeting="false" start="2018-12-12" duration="1" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Calcul des IJs et affichage des montants estimes" meeting="false" start="2018-12-13" duration="1" complete="0" expand="true">
+            <depend id="37" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="37" name="Impression résultats" meeting="false" start="2018-12-14" duration="1" complete="0" expand="true"/>
+        <task id="1" name="Tests unitaires et fonctionnels" color="#3300cc" meeting="false" start="2018-10-15" duration="23" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Alexandre" function="SoftwareDevelopment:2" contacts="" phone=""/>
@@ -176,9 +203,9 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="486" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="139" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="118" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="483" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="49" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="134" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
