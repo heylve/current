@@ -7,6 +7,8 @@ php_tests/Symfony/vendor
 grokking_algorithms/*
 sql/SQLDumpSplitterResult/*
 sql/*ign*
+/vendor/*
+/symfony/*
 */vendor/*
 */*testlink-*/*
 testlink*

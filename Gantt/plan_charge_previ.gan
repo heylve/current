@@ -6,8 +6,8 @@
         <field id="tpd5" name="Date de fin" width="21" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="56" order="0"/>
-        <field id="1" name="Rôle par défaut" width="43" order="1"/>
+        <field id="0" name="Nom" width="52" order="0"/>
+        <field id="1" name="Rôle par défaut" width="47" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -41,6 +41,9 @@
         <task id="1" name="Simul 'IJ" color="#3333ff" meeting="false" start="2018-10-15" duration="45" complete="0" expand="true"/>
         <task id="11" name="Traveldoo" color="#8cb6ce" meeting="false" start="2018-10-15" duration="10" complete="0" expand="true"/>
         <task id="12" name="Base de connaissance" color="#8cb6ce" meeting="false" start="2018-11-30" duration="1" complete="0" expand="true"/>
+        <task id="13" name="Occidam ..WEB .tests et mutation CMU" meeting="false" start="2018-10-04" duration="1" complete="0" expand="true"/>
+        <task id="15" name="César" meeting="false" start="2018-10-04" duration="1" complete="0" expand="true"/>
+        <task id="16" name="Oisans" meeting="false" start="2018-10-04" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
