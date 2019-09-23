@@ -8,6 +8,28 @@
 qersi/*
 vendor/*
 test_dir/*
+py_proj/
+ruby/
+Omniprat/
+KeyPair/
+css_html/
+express/
+am2cloud/
+cle_1024_*/
+documentation_s8p_etc/
+estimation_projets_na*/
+fileas/
+gdmap/
+nodejs/
+pencil/
+pulic_private*/
+qersi_demande_requete_quid/
+taiga_bac*/
+themis/
+ruby*
+Exemple Specs fonc*/
+PV_valida*/
+Gantt/
 php_tests/proj1/*
 php_tests/spatie/*
 php_tests/slim_cot/vendor*
@@ -18,3 +40,5 @@ php_tests/phpWebCrawler/
 php_tests
 **/php_tests
 /php_tests/phpWebCrawler
+Fileas.xl*
+Migration_mercu.*
